@@ -12,8 +12,7 @@ An interactive data analysis dashboard built with **Streamlit**, **Pandas**, and
 
 ## 🚀 Live App
 
-👉 [Click here to view the live dashboard](https://your-streamlit-link.streamlit.app)  
-*(This link will work after deployment)*
+👉 [Click here to view the live dashboard](https://pratik-game-sales-dashboard.streamlit.app/)  
 
 ## 🛠️ Tech Stack
 
@@ -33,8 +32,7 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/gregorut/vi
 ## 🙋‍♂️ About Me
 
 Built by **Pratik Sawant** — a Python & Data Science enthusiast.  
-Check out more projects on my [GitHub](https://github.com/your-username).
 
 ---
 
-⭐ *Feel free to fork, use, or contribute to this project.*
+⭐ *Feel free to test or use this project. I'm also open to new ideas!.*
