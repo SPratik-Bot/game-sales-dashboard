@@ -24,7 +24,7 @@ An interactive data analysis dashboard built with **Streamlit**, **Pandas**, and
 
 ## 📁 Dataset
 
-The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/gregorut/videogame-sales-with-ratings) and includes:
+The dataset is sourced from [Datacamp](https://www.datacamp.com/datalab/w/67884679-64e7-41b8-bdbb-45e2db019ae8/edit) and includes:
 - Game title, platform, release year
 - Genre and publisher
 - Sales data across NA, EU, JP, Others, and Global totals
