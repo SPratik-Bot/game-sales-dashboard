@@ -8,7 +8,7 @@ st.set_page_config(page_title="Game Sales Dashboard", layout="wide")
 # Load the dataset
 @st.cache_data
 def load_data():
-	file_path = r"C:\Users\prati\OneDrive\Documents\DA_Project2\vgsales.csv"
+	file_path = r"vgsales.csv"
 	df = pd.read_csv(file_path)
 	return df
 
