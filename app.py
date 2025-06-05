@@ -102,6 +102,19 @@ fig4 = px.line(sales_by_year, x='Year', y='Global_Sales',
                labels={'Global_Sales': 'Global Sales (M)', 'Year': 'Release Year'})
 st.plotly_chart(fig4, use_container_width=True)
 
+# ----------------------------- PIBLISHERS SALES ----------------------------- #
+st.markdown("---")
+st.subheader("📣 Top 10 Publishers by Global Sales")
+spublisher_sales = filtered_df.groupby('Publisher')['Global_Sales'].sum().reset_index()
+publisher_sales = publisher_sales.sort_values(by='Global_Sales', ascending=False).head(10)
+
+fig5 = px.bar(publisher_sales, x='Publisher', y='Global_Sales',
+              title='Top 10 Publishers by Global Sales',
+              labels={'Global_Sales': 'Global Sales (M)'},
+              color='Publisher', text_auto='.2s')
+
+st.plotly_chart(fig5, use_container_width=True)
+
 # ----------------------------- DOWNLOAD DATA ----------------------------- #
 st.markdown("---")
 st.subheader("💾 Download Dataset")
